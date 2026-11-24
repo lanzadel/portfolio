@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Mohamed Chakara, lead front-end et développeur full stack senior. React, Next.js, TypeScript, Symfony et IA générative.">
+  <meta name="theme-color" content="#f8f6ef">
+  <title>Mohamed Chakara — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i="skip">Aller au contenu</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a href="#top" class="brand" aria-label="Mohamed Chakara"><span class="mark">mc<span>.</span></span><span class="brand-name">Mohamed Chakara</span></a>
+      <nav class="nav" data-label="nav" aria-label="Navigation principale">
+        <a href="#missions" data-i="work">Missions</a>
+        <a href="#skills" data-i="skills">Compétences</a>
+        <a href="#cv" data-i="resumeNav">CV</a>
+      </nav>
+      <div class="language" role="group" data-label="language" aria-label="Langue du portfolio" hidden>
+        <button type="button" lang="fr" value="fr" aria-pressed="true" aria-label="Français">FR</button>
+        <button type="button" lang="en" value="en" aria-pressed="false" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="shell hero" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i="role">Lead front-end · Développeur full stack senior</span></p>
+        <h1 id="name">Mohamed<br><span>Chakara<span class="period">.</span></span></h1>
+        <p class="intro" data-i="intro">Je conçois des applications web métier, de l’interface aux API. Je travaille avec React, Next.js et Symfony, et j’intègre l’IA générative dans les outils utilisés par les équipes métier.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#cv"><span data-i="resumeAction">Télécharger mes CV</span><span aria-hidden="true">↓</span></a>
+          <a class="button secondary" href="https://www.linkedin.com/in/mohamed-chakara-535a96109/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="blueprint" aria-hidden="true">
+        <div class="blueprint-top"><span><i></i><i></i><i></i></span><span>stack.ts</span><span>✳</span></div>
+        <div class="diagram">
+          <div class="diagram-orbit orbit-one"></div><div class="diagram-orbit orbit-two"></div>
+          <div class="diagram-axis"></div>
+          <div class="layer layer-one"><span>UI / TSX</span><strong>React + Next.js</strong><b>⌘</b></div>
+          <div class="layer layer-two"><span>API / PHP</span><strong>Symfony</strong><b>↗</b></div>
+          <div class="layer layer-three"><span>DATA / AI</span><strong>Search + RAG</strong><b>✦</b></div>
+        </div>
+        <div class="blueprint-bottom"><span>&lt;interface /&gt;</span><span>API</span><span>[ data ]</span></div>
+      </div>
+    </section>
+
+    <div class="fact-band">
+      <div class="shell facts">
+        <div><b>10+</b><span data-i="years">années d’expérience</span></div>
+        <div><b data-i="lead">Leadership technique</b><span data-i="leadDetail">Architecture, mentorat et revues de code</span></div>
+        <div><a href="https://github.com/lanzadel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><span>@lanzadel</span></div>
+      </div>
+    </div>
+
+    <section id="missions" class="shell section" aria-labelledby="work-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i="workKicker">Parcours professionnel</p>
+        <h2 id="work-title" data-i="workTitle">Missions sélectionnées</h2>
+        <p data-i="workIntro">Banque, institutions européennes, éducation et automobile.</p>
+      </div>
+      <div class="work-list">
+        <details open>
+          <summary><span class="work-date">05/2023 – 10/2026</span><span class="work-heading"><strong>BNP Paribas CIB</strong><span>COM’IT · EXTEAM</span></span><span class="expand" aria-hidden="true"></span></summary>
+          <div class="work-body"><p data-i="bnp">Pilotage technique d’une plateforme de campagnes de communication IT. Migration du front-end vers Next.js, conception d’API Symfony et intégration d’assistants IA avec RAG et réponses en streaming.</p><ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Symfony</li><li>Elasticsearch</li><li>Azure OpenAI</li></ul></div>
+        </details>
+        <details>
+          <summary><span class="work-date">04/2021 – 03/2023</span><span class="work-heading"><strong data-i="epoName">Office européen des brevets</strong><span>New Electronic Filing · NTT DATA</span></span><span class="expand" aria-hidden="true"></span></summary>
+          <div class="work-body"><p data-i="epo">Conception d’un tableau de bord d’administration pour une plateforme de brevets. Création d’un design system responsive et migration des flux asynchrones vers RTK Query.</p><ul class="tags"><li>React</li><li>TypeScript</li><li>RTK Query</li><li>Chakra UI</li></ul></div>
+        </details>
+        <details>
+          <summary><span class="work-date">04/2020 – 03/2021</span><span class="work-heading"><strong data-i="educationClient">Rectorat</strong><span>GANESH · KALISOFT</span></span><span class="expand" aria-hidden="true"></span></summary>
+          <div class="work-body"><p data-i="ganesh">Modernisation d’une plateforme de suivi des élèves en situation de handicap. Migration de jQuery vers React, création de composants réutilisables et intégration d’API sécurisées par rôle.</p><ul class="tags"><li>React</li><li>Redux</li><li>Symfony</li><li>JWT</li></ul></div>
+        </details>
+        <details>
+          <summary><span class="work-date">06/2019 – 03/2020</span><span class="work-heading"><strong data-i="psaName">Groupe PSA</strong><span>BOFORMSV2</span></span><span class="expand" aria-hidden="true"></span></summary>
+          <div class="work-body"><p data-i="psa">Développement d’un configurateur automobile en temps réel et de formulaires conditionnels pilotés par des schémas JSON pour des portails sur 12 marchés.</p><ul class="tags"><li>React</li><li>TypeScript</li><li>GraphQL</li><li>Formik</li></ul></div>
+        </details>
+        <details>
+          <summary><span class="work-date">09/2016 – 05/2019</span><span class="work-heading"><strong>BNP Paribas</strong><span>Crédit Hors Défi · IConvention Patrimoniale · IBM AT &amp; Technologies</span></span><span class="expand" aria-hidden="true"></span></summary>
+          <div class="work-body"><p data-i="ibm">Développement d’interfaces bancaires pour la collecte de données financières et la gestion de la relation client en banque privée. Intégration de services Symfony et de web services internes.</p><ul class="tags"><li>React</li><li>Redux</li><li>Symfony</li><li>PostgreSQL</li></ul></div>
+        </details>
+      </div>
+    </section>
+
+    <section id="skills" class="skill-section" aria-labelledby="skills-title">
+      <div class="shell section">
+        <div class="section-head">
+          <p class="eyebrow" data-i="skillsKicker">Technologies et pratiques</p>
+          <h2 id="skills-title" data-i="skillsTitle">Compétences techniques</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><h3>Front-end</h3><p data-i="frontSkill">Interfaces, gestion d’état, formulaires et design systems.</p><ul class="tags"><li>React</li><li>Next.js</li><li>TypeScript</li><li>JavaScript</li><li>HTML / CSS</li><li>Redux Toolkit / RTK Query</li><li>TanStack Query</li><li>Zustand</li><li>React Hook Form</li><li>Zod</li><li>Formik / Yup</li><li>Tailwind CSS</li><li>Chakra UI</li><li>Styled Components</li><li>SCSS</li><li>Figma</li></ul></article>
+          <article class="skill-card"><h3>Back-end &amp; API</h3><p data-i="backSkill">Conception d’API, modélisation et contrôle d’accès.</p><ul class="tags"><li>PHP</li><li>Symfony</li><li>API Platform</li><li>Doctrine ORM</li><li>REST</li><li>GraphQL / Apollo Client</li><li>JWT</li><li>Symfony Guard</li><li>RBAC</li></ul></article>
+          <article class="skill-card"><h3 data-i="aiTitle">Données, recherche &amp; IA</h3><p data-i="aiSkill">Recherche hybride et vectorielle, RAG et interfaces conversationnelles.</p><ul class="tags"><li>MongoDB</li><li>Elasticsearch</li><li>PostgreSQL / pgvector</li><li>MySQL</li><li>OpenAI / Azure OpenAI</li><li>RAG</li><li>Vercel AI SDK</li><li>LangChain</li><li>Function Calling</li><li>MCP</li><li>SSE streaming</li><li>LLM guardrails</li></ul></article>
+          <article class="skill-card"><h3 data-i="qualityTitle">Architecture, qualité &amp; livraison</h3><p data-i="qualitySkill">Accessibilité, performance web, tests automatisés et CI/CD.</p><ul class="tags"><li>Atomic Design</li><li>Micro-frontends</li><li>SSR / SSG / ISR</li><li>WCAG</li><li>Core Web Vitals</li><li>Lighthouse</li><li>Webpack</li><li>Jest</li><li>React Testing Library</li><li>Playwright</li><li>Cypress</li><li>PHPUnit</li><li>Enzyme</li><li>Git</li><li>GitHub Actions</li><li>GitLab CI</li><li>Jenkins</li><li>Docker</li><li>SonarQube</li><li>Scrum / Kanban</li><li>Jira / Confluence</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="shell section resume" aria-labelledby="resume-title">
+      <div class="section-head">
+        <p class="eyebrow">PDF <span aria-hidden="true">/</span> <span data-i="edition">Édition française</span></p>
+        <h2 id="resume-title" data-i="resumeTitle">Télécharger mes CV</h2>
+      </div>
+      <div class="resume-grid">
+        <a class="resume-card" data-cv="Frontend" href="cv/Mohamed-Chakara-Frontend-FR.pdf" download>
+          <div><h3 data-i="frontCV">Lead front-end senior</h3><p>React · Next.js · TypeScript</p><span class="download-label" data-i="download">Télécharger le PDF</span></div><span class="download-icon" aria-hidden="true">↓</span>
+        </a>
+        <a class="resume-card" data-cv="Fullstack" href="cv/Mohamed-Chakara-Fullstack-FR.pdf" download>
+          <div><h3 data-i="fullCV">Développeur full stack senior</h3><p>Symfony · React · Next.js</p><span class="download-label" data-i="download">Télécharger le PDF</span></div><span class="download-icon" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <a href="#top" class="brand" aria-label="Mohamed Chakara"><span class="mark">mc<span>.</span></span><span>Mohamed Chakara</span></a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/mohamed-chakara-535a96109/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/lanzadel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
